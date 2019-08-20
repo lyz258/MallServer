@@ -1,0 +1,220 @@
+{ 
+    "_id" : ObjectId("5cf4ef90327a1c0a100d11a2"), 
+    "userId" : "100000077", 
+    "userName" : "admin", 
+    "userPwd" : "123456", 
+    "orderList" : [
+        {
+            "orderId" : "6224201705302250301", 
+            "orderTotal" : NumberInt(3359), 
+            "addressInfo" : {
+                "addressId" : "100001", 
+                "userName" : "JackBean", 
+                "streetName" : "北京市朝阳区朝阳公园", 
+                "postCode" : NumberInt(100001), 
+                "tel" : 12345678901.0, 
+                "isDefault" : true
+            }, 
+            "goodsList" : [
+                {
+                    "productImage" : "mi6.jpg", 
+                    "salePrice" : "2499", 
+                    "productName" : "小米6", 
+                    "productId" : "201710006", 
+                    "productNum" : "1", 
+                    "checked" : "1"
+                }, 
+                {
+                    "productImage" : "2.jpg", 
+                    "salePrice" : "80", 
+                    "productName" : "头戴式耳机-3", 
+                    "productId" : "201710004", 
+                    "productNum" : "7", 
+                    "checked" : "1"
+                }
+            ], 
+            "orderStatus" : "1", 
+            "createDate" : "2017-05-30 22:50:30"
+        }, 
+        {
+            "orderId" : "9201706071525282", 
+            "orderTotal" : "5558", 
+            "orderStatus" : NumberInt(1), 
+            "createDate" : "2017-06-07 15:25:28", 
+            "goodsList" : [
+                {
+                    "productImage" : "mi6.jpg", 
+                    "salePrice" : "2499", 
+                    "productName" : "小米6", 
+                    "productId" : "201710006", 
+                    "productNum" : "2"
+                }, 
+                {
+                    "productImage" : "2.jpg", 
+                    "salePrice" : "80", 
+                    "productName" : "头戴式耳机-3", 
+                    "productId" : "201710004", 
+                    "productNum" : "7"
+                }
+            ]
+        }
+    ], 
+    "cartList" : [
+        {
+            "productImage" : "1.jpg", 
+            "salePrice" : "129", 
+            "productName" : "小钢炮蓝牙音箱", 
+            "productId" : "201710017", 
+            "productNum" : "11", 
+            "checked" : "1"
+        }, 
+        {
+            "_id" : ObjectId("58e7058d98dab115d336b3fd"), 
+            "productId" : "201710018", 
+            "productName" : "智能摄像机", 
+            "salePrice" : "389", 
+            "productImage" : "photo.jpg", 
+            "productNum" : "3", 
+            "checked" : "0"
+        }, 
+        {
+            "_id" : ObjectId("58e7051698dab115d336b3f4"), 
+            "productId" : "201710009", 
+            "productName" : "IH 电饭煲", 
+            "salePrice" : "999", 
+            "productImage" : "9.jpg", 
+            "productNum" : "1", 
+            "checked" : "0"
+        }, 
+        {
+            "_id" : ObjectId("58c284b13a1bb9aa7033801b"), 
+            "productId" : "201710003", 
+            "productName" : "平衡车12", 
+            "salePrice" : "1999", 
+            "productImage" : "pingheng.jpg", 
+            "productNum" : "100", 
+            "checked" : "1"
+        }, 
+        {
+            "_id" : ObjectId("58e7053298dab115d336b3f7"), 
+            "productId" : "201710012", 
+            "productName" : "Ear1100", 
+            "salePrice" : "1100", 
+            "productImage" : "12.jpg", 
+            "productNum" : "1", 
+            "checked" : "1"
+        }, 
+        {
+            "_id" : ObjectId("58e704ef98dab115d336b3f1"), 
+            "productId" : "201710002", 
+            "productName" : "智能插线板", 
+            "salePrice" : "59", 
+            "productImage" : "6.jpg", 
+            "productNum" : "2", 
+            "checked" : "1"
+        }
+    ], 
+    "addressList" : [
+        {
+            "addressId" : "100001", 
+            "userName" : "JackBean", 
+            "streetName" : "北京市朝阳区朝阳公园", 
+            "postCode" : "100001", 
+            "tel" : "12345678901", 
+            "isDefault" : true
+        }, 
+        {
+            "addressId" : "100004", 
+            "userName" : "Mary", 
+            "streetName" : "北京市朝阳区SOHO", 
+            "postCode" : "100005", 
+            "tel" : "010555555", 
+            "isDefault" : false
+        }
+    ], 
+    "__v" : NumberInt(14)
+}
+{ 
+    "_id" : ObjectId("5cfdd14f102f7e2df85c8048"), 
+    "orderList" : [
+
+    ], 
+    "addressList" : [
+
+    ], 
+    "userId" : "1000086", 
+    "userName" : "user1", 
+    "userPwd" : "123", 
+    "cartList" : [
+        {
+            "_id" : ObjectId("58e7050398dab115d336b3f2"), 
+            "productId" : "201710007", 
+            "productName" : "自拍杆", 
+            "salePrice" : "39", 
+            "productImage" : "zipai.jpg", 
+            "productNum" : "1", 
+            "checked" : "1"
+        }, 
+        {
+            "_id" : ObjectId("58c284b13a1bb9aa7033801b"), 
+            "productId" : "201710003", 
+            "productName" : "平衡车12", 
+            "salePrice" : "1999", 
+            "productImage" : "pingheng.jpg", 
+            "productNum" : "1", 
+            "checked" : "1"
+        }
+    ], 
+    "__v" : NumberInt(2)
+}
+{ 
+    "_id" : ObjectId("5cfdd5cef42f210a4ced0f62"), 
+    "orderList" : [
+
+    ], 
+    "addressList" : [
+
+    ], 
+    "userId" : "146062", 
+    "userName" : "user2", 
+    "userPwd" : "123", 
+    "cartList" : [
+        {
+            "_id" : ObjectId("58c284d7117a2e6599abef5e"), 
+            "productId" : "201710004", 
+            "productName" : "头戴式耳机-3", 
+            "salePrice" : "80", 
+            "productImage" : "2.jpg", 
+            "productNum" : "1", 
+            "checked" : "0"
+        }, 
+        {
+            "_id" : ObjectId("58e7051698dab115d336b3f4"), 
+            "productId" : "201710009", 
+            "productName" : "IH 电饭煲", 
+            "salePrice" : "999", 
+            "productImage" : "9.jpg", 
+            "productNum" : "2", 
+            "checked" : "1"
+        }, 
+        {
+            "_id" : ObjectId("58e7052a98dab115d336b3f6"), 
+            "productId" : "201710011", 
+            "productName" : "Ear1000", 
+            "salePrice" : "1000", 
+            "productImage" : "11.jpg", 
+            "productNum" : "1", 
+            "checked" : "1"
+        }, 
+        {
+            "_id" : ObjectId("58e7057798dab115d336b3fb"), 
+            "productId" : "201710016", 
+            "productName" : "Ear700", 
+            "salePrice" : "700", 
+            "productImage" : "16.jpg", 
+            "productNum" : "1", 
+            "checked" : "0"
+        }
+    ], 
+    "__v" : NumberInt(12)
+}
